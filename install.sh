@@ -9,5 +9,6 @@ git config --global --add commit.gpgsign true
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ln -s "$PWD/vimrc" ~/.vimrc
+ln -s "$PWD/screenrc" ~/.screenrc
 
 vim +PluginInstall +qall
